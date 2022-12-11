@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body{
-	@apply dark:text-white dark:bg-zinc-800 max-w-[1100px] mx-auto p-2
+	@apply dark:text-white dark:bg-zinc-800 max-w-[1000px] mx-auto p-2
 }
