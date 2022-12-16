@@ -2,23 +2,23 @@ import type { Experience } from "../types";
 
 export const experiences: Experience[] = [
   {
-    name: "Software Engineer",
-    location: "San Francisco, CA",
-    description: "I work on the web team at Stripe, building tools for our internal teams.",
-    url: "https://stripe.com",
-    image: "https://stripe.com/img/v3/home/social.png",
-    tags: ["JavaScript", "TypeScript", "React", "Node.js", "GraphQL", "CSS", "HTML"],
-    startDate: "2020-01-01",
-    endDate: "2021-01-01",
-  },
-  {
-    name: "Software Engineer",
-    location: "San Francisco, CA",
-    description: "I worked on the web team at Stripe, building tools for our internal teams.",
-    url: "https://stripe.com",
-    image: "https://stripe.com/img/v3/home/social.png",
-    tags: ["JavaScript", "TypeScript", "React", "Node.js", "GraphQL", "CSS", "HTML"],
-    startDate: "2019-01-01",
-    endDate: "2020-01-01",
+    id: "adapcon",
+    name: "Intern at Adapcon",
+    location: "Jaragua do Sul, SC - Brazil",
+    description: "Worked as intern, development mainly of frontend tasks, did a bit of backend tasks on the end of the internship. Worked maintining the main project, Simplifica+ and a side project for administration part of a project called Allp.",
+    links: [
+      {
+        label: "Simplifica+",
+        url: "https://simplificamais.com.br",
+      },
+      {
+        label: "Allp",
+        url: "https://allp.digital",
+      }
+    ],
+    url: "https://adapcon.com.br/",
+    tags: ["JavaScript", "TypeScript", "Node.js", "Vue.js", "AWS", "Firebase"],
+    startDate: "2022-04-05",
+    endDate: "2022-12-17",
   }
 ];

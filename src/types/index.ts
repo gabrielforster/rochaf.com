@@ -1,9 +1,14 @@
 export type Experience = {
+  id: string
   name: string
   location: string
   description: string
+  links: {
+    label: string
+    url: string
+  }[]
   url: string
-  image: string
+  image?: string
   tags: string[]
   startDate: string
   endDate: string

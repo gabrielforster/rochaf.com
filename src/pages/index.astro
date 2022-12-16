@@ -15,13 +15,14 @@ import InfoContainer from '../components/home/InfoContainer.astro';
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			<h1>🧠 Hello dear traveller!</h1>
-			<p>I'm</p>
-			<h2>Gabriel Rocha</h2>
-			<p>Fullstack developer</p>
+			<section class="flex flex-col">
+				<p>I'm</p>
+				<h2>Gabriel Rocha</h2>
+				<p>Fullstack developer</p>
+			</section>
 
 			<p>
-				Developer since 17, had my first contact with code when I was 15 during the pandemic, that time I built a <a href="/projects/#c-calc">prompt calculator with C language</a>
+				Developer since 17, had my first contact with code when I was 15 during the pandemic, that time I built a <a href="/projects/#c-calc">terminal calculator with C language</a>
 			</p>
 		</main>
 		<InfoContainer title="Experiences" details={experiences} />
