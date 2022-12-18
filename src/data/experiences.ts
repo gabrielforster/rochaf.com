@@ -5,7 +5,7 @@ export const experiences: Experience[] = [
     id: "adapcon",
     name: "Intern at Adapcon",
     location: "Jaragua do Sul, SC - Brazil",
-    description: "Worked as intern, development mainly of frontend tasks, did a bit of backend tasks on the end of the internship. Worked maintining the main project, Simplifica+ and a side project for administration part of a project called Allp.",
+    description: "Worked as intern, on development mainly of frontend tasks, did a bit of backend tasks on the end of the internship. Worked maintining the main project, Simplifica+ and a side project for administration part of a project called Allp. On the backend adventures I had my first conntact with the microservice architecture, using  Serverless functions along with Node.js and AWS Lambda. On the frontend side I had my first contact with Vue.js (in versions 2 and 3)",
     links: [
       {
         label: "Simplifica+",
