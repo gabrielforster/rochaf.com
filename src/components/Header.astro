@@ -8,7 +8,7 @@ import HeaderLink from './HeaderLink.astro';
 	</h2>
 	<nav class="flex items-center justify-between w-1/4">
 		<HeaderLink href="/">Home</HeaderLink>
-		<HeaderLink href="/about">About</HeaderLink>
+		<HeaderLink href="/about">About me</HeaderLink>
 		<HeaderLink href="https://github.com/gabrielforster" target="_blank">GitHub</HeaderLink>
 		<div>
 			<button aria-label="theme-btn" id="theme-btn" class="dark:text-light rounded-lg p-4 ml-2 bg-slate-100 dark:bg-[#202020]"></button>
@@ -46,7 +46,6 @@ import HeaderLink from './HeaderLink.astro';
   window.localStorage.setItem("theme", theme);
 
   const darkModeHandler = () => {
-		console.log('etrei aqui')
     if (isDark) {
       document.documentElement.setAttribute("data-theme", "dark");
       localStorage.theme = "dark";
