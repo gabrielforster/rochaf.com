@@ -3,7 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
-import { experiences } from '../data';
+import { experiences, projects } from '../data';
 import InfoContainer from '../components/home/InfoContainer.astro';
 ---
 
@@ -28,6 +28,8 @@ import InfoContainer from '../components/home/InfoContainer.astro';
 
 			<section>
 				<InfoContainer title="Experiences" details={experiences} />
+
+				<InfoContainer title="Projects" details={projects} />
 			</section>
 		</main>
 		<Footer />

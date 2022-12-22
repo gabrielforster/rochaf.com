@@ -15,3 +15,6 @@ Recently, I graduated from high school as and System Development Technician. In 
 I'm currently studying Software Engineering at [Catolica SC](https://www.catolicasc.org.br/).
 
 In my current job as a full-stack developer I've been working with Vue.js, NodeJS along Serverless functions, and AWS. I've also been using some other technologies in personal projects like React.js, Next.js, Express, NestJS, MySQL and MongoDB.
+
+Currently learning Python and Solid Start (Server side rendering for the solid framework)
+

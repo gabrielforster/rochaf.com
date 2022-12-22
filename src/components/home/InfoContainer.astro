@@ -15,8 +15,8 @@ const { title, details } = Astro.props as Experiences;
           <div class="flex justify-between items-center flex-wrap">
             <h3 class="text-xl font-semibold">{item.name}</h3>
             <p class="text-sm dark:text-gray">
-              {new Date(item.startDate).toLocaleDateString()} -{" "}
-              {new Date(item.endDate).toLocaleDateString()}
+              {item.startDate && new Date(item.startDate).toLocaleDateString()} -{" "}
+              {item.endDate && new Date(item.endDate).toLocaleDateString()}
             </p>
           </div>
           <p class="text-sm text-blue">{item.location}</p>
