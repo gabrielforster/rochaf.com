@@ -3,7 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
-import { experiences, projects } from '../data';
+import { experiences, projects, personal_links } from '../data';
 import InfoContainer from '../components/home/InfoContainer.astro';
 ---
 
@@ -29,6 +29,20 @@ import InfoContainer from '../components/home/InfoContainer.astro';
 				<img src="https://github.com/gabrielforster.png" class="ml-40 my-auto max-h-60 h-auto max-w-auto self-center border rounded-full object-cover object-center overflow-hidden"/>
 			</section>
 
+			<section class="mt-2">
+				<h5 class="text-xl font-bold">Contact me</h5>
+				<ul class="underline flex">
+					{
+						personal_links.map(item => {
+							return (
+								<li class="mr-2">
+									<a target="_blank" href={item.link}>{item.label}</a>
+								</li>
+							)
+						})
+					}
+				</ul>
+			</section>
 
 			<section>
 				<InfoContainer title="Experiences" details={experiences} />
