@@ -29,6 +29,12 @@ import InfoContainer from '../components/home/InfoContainer.astro';
 				<img src="https://github.com/gabrielforster.png" class="ml-40 my-auto max-h-96 h-auto max-w-auto self-center border-4 border-sky-500 rounded-full object-cover object-center overflow-hidden"/>
 			</section>
 
+			<section>
+				<InfoContainer title="Experiences" details={experiences} />
+
+				<InfoContainer title="Projects" details={projects} />
+			</section>
+
 			<section class="mt-2">
 				<h5 class="text-xl font-bold">Contact me</h5>
 				<ul class="underline flex">
@@ -42,12 +48,6 @@ import InfoContainer from '../components/home/InfoContainer.astro';
 						})
 					}
 				</ul>
-			</section>
-
-			<section>
-				<InfoContainer title="Experiences" details={experiences} />
-
-				<InfoContainer title="Projects" details={projects} />
 			</section>
 		</main>
 		<Footer />
