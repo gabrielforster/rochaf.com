@@ -18,3 +18,10 @@ export interface Experiences {
   title: string
   details: Experience[]
 }
+
+interface PersonalLinksInterface {
+  label: string
+  link: string
+}
+
+export type PersonalLinks = PersonalLinksInterface[]
