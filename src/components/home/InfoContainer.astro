@@ -5,13 +5,13 @@ const { title, details } = Astro.props as Experiences;
 ---
 
 <section
-  class="flex items-start justify-between flex-col sm:flex-row dark:text-light"
+  class="flex items-start justify-between flex-col sm:flex-row dark:text-light mt-4"
 >
-  <h2 class="w-[15rem] mt-16 text-xl underline">{title}</h2>
+  <h2 class="w-[15rem] text-xl underline">{title}</h2>
   <div class="w-full">
     {
       details.map((item) => (
-        <div class="my-16" id={item.id}>
+        <div class="my-4 sm:my-2" id={item.id}>
           <div class="flex justify-between items-center flex-wrap">
             <h3 class="text-xl font-semibold">{item.name}</h3>
             <p class="text-sm dark:text-gray">
