@@ -32,9 +32,9 @@ const { title, details } = Astro.props as Experiences;
           </ul>
           <div class="w-full mt-2">
             <p>Stack</p>
-            <ul class="flex">
+            <ul class="flex mt-1">
               {item.tags.map((item) => (
-                <li class="dark:text-gray pr-2">{item}</li>
+                <li class="dark:text-gray py-1 px-2 mr-1 rounded bg-gray-200 dark:bg-zinc-600">{item}</li>
               ))}
             </ul>
           </div>
