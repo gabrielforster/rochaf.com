@@ -35,20 +35,6 @@ import InfoContainer from '../components/home/InfoContainer.astro';
 				<InfoContainer title="Projects" details={projects} />
 			</section>
 
-			<section class="mt-2">
-				<h5 class="text-xl font-bold">Contact me</h5>
-				<ul class="underline flex">
-					{
-						personal_links.map(item => {
-							return (
-								<li class="mr-2">
-									<a target="_blank" href={item.link}>{item.label}</a>
-								</li>
-							)
-						})
-					}
-				</ul>
-			</section>
 		</main>
 		<Footer />
 	</body>
