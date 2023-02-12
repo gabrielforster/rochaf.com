@@ -25,7 +25,7 @@ export const experiences: Experience[] = [
     id: "adapcon-fullstack",
     name: "Fullstack Developer at Adapcon (Current)",
     location: "Jaragua do Sul, SC - Brazil",
-    description: "Current job. I'm working as a fullstack developer on the team that maintains the core modules of Simplifica+ project. I'll be adding more detail soon",
+    description: "Work as a fullstack developer on the team that maintains the core modules of Simplifica+, the main project of the company. Was allocated to the project that works with the Meta API for Whatsapp, the goal with this project is to give users a way to self attend then selfs by generating bank bills, invoices, and talk to a real person if needed!",
     links: [
       {
         label: "Simplifica+",

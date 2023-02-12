@@ -1,8 +1,8 @@
 export const projects = [
   {
     id: "coderock-utils",
-    name: "Coderock Utils",
-    description: "A collection of utils javascript",
+    name: "Coderock Utils (Development)",
+    description: "A collection of javascript utils, such as formating and manipulationg dates, and much more.",
     url: "npmjs.org/packages/corock-utils",
     tags: ["JavaScript", "TypeScript"],
     links: [
