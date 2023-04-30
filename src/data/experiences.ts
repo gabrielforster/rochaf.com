@@ -2,6 +2,22 @@ import type { Experience } from "../types";
 
 export const experiences: Experience[] = [
   {
+    id: "adapcon-fullstack",
+    name: "Fullstack Developer at Adapcon (Current)",
+    location: "Jaragua do Sul, SC - Brazil",
+    description: "Work as a fullstack developer on the team that maintains the core modules of Simplifica+, the main project of the company. Was allocated to the project that works with the Meta API for Whatsapp, the goal with this project is to give users a way to self attend then selfs by generating bank bills, invoices, and talk to a real person if needed!",
+    links: [
+      {
+        label: "Simplifica+",
+        url: "https://simplificamais.com.br",
+      }
+    ],
+    url: "https://adapcon.com.br/",
+    tags: ["JavaScript", "TypeScript", "Node.js", "Vue.js", "AWS", "Microservices"],
+    startDate: "2023-01-09",
+    endDate: "",
+  },
+  {
     id: "adapcon-intern",
     name: "Intern at Adapcon",
     location: "Jaragua do Sul, SC - Brazil",
@@ -20,21 +36,5 @@ export const experiences: Experience[] = [
     tags: ["JavaScript", "TypeScript", "Node.js", "Vue.js", "AWS", "Firebase", "Microservices"],
     startDate: "2022-04-05",
     endDate: "2022-12-17",
-  },
-  {
-    id: "adapcon-fullstack",
-    name: "Fullstack Developer at Adapcon (Current)",
-    location: "Jaragua do Sul, SC - Brazil",
-    description: "Work as a fullstack developer on the team that maintains the core modules of Simplifica+, the main project of the company. Was allocated to the project that works with the Meta API for Whatsapp, the goal with this project is to give users a way to self attend then selfs by generating bank bills, invoices, and talk to a real person if needed!",
-    links: [
-      {
-        label: "Simplifica+",
-        url: "https://simplificamais.com.br",
-      }
-    ],
-    url: "https://adapcon.com.br/",
-    tags: ["JavaScript", "TypeScript", "Node.js", "Vue.js", "AWS", "Microservices"],
-    startDate: "2023-01-09",
-    endDate: "",
   }
 ];
